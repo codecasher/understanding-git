@@ -9,6 +9,12 @@ app.get('/',(req,res)=>{
     })
 });
 
+app.get('/ready',(req,res)=>{
+    return res.status(200).json({
+        message:'Api server is ready'
+    });
+})
+
 app.listen(5000,()=>{
     console.log('Listening to the server....')
 })
