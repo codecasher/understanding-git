@@ -1,3 +1,6 @@
-## My new readme.md  file 
+## New readme.md file
 
-we have modified our readme.md file 
+This is our readme.md file.
+Server.js is a node.js demo server that calls out two routes and response with different messages 
+
+
